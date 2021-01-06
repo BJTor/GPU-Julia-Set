@@ -1,0 +1,8 @@
+2014-10-15 (v1.2): 
+* Fix compatibility with R2014b.
+
+2012-11-01 (v1.1): 
+* Updated to include a MATLAB App for easy installation/removal.
+
+2011-10-10 (v1.0): 
+* Initial FEX release

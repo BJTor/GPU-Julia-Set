@@ -1,0 +1,118 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3908040292" file="/mathworks/home/btordoff/matlab/FileExchangeSubmissions/GPUJulia/GPUJulia/GPU Julia Set Explorer.prj" location="/mathworks/home/btordoff/matlab/FileExchangeSubmissions/GPUJulia/GPUJulia" name="GPU Julia Set Explorer" target="target.mlapps" target-name="Package App">
+    <param.appname>GPU Julia Set Explorer</param.appname>
+    <param.authnamewatermark>Ben Tordoff</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon>${PROJECT_ROOT}/GPU Julia Set Explorer_resources/icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/GPU Julia Set Explorer_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/GPU Julia Set Explorer_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/GPU Julia Set Explorer_resources/icon_16.png</file>
+    </param.icons>
+    <param.summary>Explore the Julia Set of the Mandelbrot Set using MATLAB and a capable GPU.</param.summary>
+    <param.description>This application allows you to explore the Julia Set of the Mandelbrot Set in MATLAB with the help of a capable GPU. It is primarily intended as a demonstration of element-wise calculations using MATLAB and a GPU, however it also has some fun features:
+
+* Use the normal MATLAB zoom and pan to browse the Julia Set
+* Drag or click to select the location in the Mandelbrot Set for which the Julia Set is rendered
+* Sit back and watch the app move around the Mandelbrot Set on a pre-stored path (zoom and pan still work)
+
+See also the "GPU Mandelbrot Set": http://www.mathworks.com/matlabcentral/fileexchange/30988
+
+NB: Requires MATLAB R2012a or above with Parallel Computing Toolbox and a GPU with CUDA Compute Capability 1.3 or above.</param.description>
+    <param.screenshot>/mathworks/home/btordoff/matlab/FileExchangeSubmissions/GPUJulia/GPUJulia.png</param.screenshot>
+    <param.version>1.3</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Parallel Computing Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>-1</item>
+      <item>-1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>-1</item>
+      <item>-1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>e79c35a3-625e-48b8-a856-c7e0f0f3ccd0</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/juliaSetExplorer.m</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}/README.txt</file>
+      <file>${PROJECT_ROOT}/icon_mandel.png</file>
+      <file>${PROJECT_ROOT}/icon_play.png</file>
+      <file>${PROJECT_ROOT}/license.txt</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="/mathworks/home/btordoff/matlab/FileExchangeSubmissions/GPUJulia" name="GPUJulia" optional="false">/mathworks/home/btordoff/matlab/FileExchangeSubmissions/GPUJulia/GPUJulia</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/mathworks/UK/devel/archive/R2019a/perfect/matlab</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>4.9.0-8-amd64</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
