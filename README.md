@@ -1,5 +1,5 @@
 # GPU-Julia-Set
-Explore the Julia Set of the Mandelbrot Set using MATLAB and a capable NVIDIA GPU.
+_Explore the Julia Set of the Mandelbrot Set using MATLAB and a capable NVIDIA GPU._
 
 [![View GPU Julia Set Explorer on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://uk.mathworks.com/matlabcentral/fileexchange/33201-gpu-julia-set-explorer)
 
